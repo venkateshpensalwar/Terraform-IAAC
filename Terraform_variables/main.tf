@@ -1,5 +1,8 @@
 ## How to create variables?
 
+## normally we have hundreds of variables so we create variables.tf file so from next practicles
+## we will use that one
+
 # String data type
 variable "var_1" {                              ## "var_1" == you can give any name
     type = string                         ## data type
@@ -30,6 +33,12 @@ variable "var_5" {
     }
 }
 
+## if you want to take input from user dont pass default value
+
+variable "var_6" {
+    type = string
+}
+
 ## How to print variables?
 
 # First method
@@ -41,3 +50,9 @@ output "out_1" {
 output "out_2" {
     value = "${var.var_5}"                 ## if you want to print this variablr inside string you can use this way
 }
+
+# prompted value will put here
+output "out_3" {
+    value = var.var_6
+}
+
