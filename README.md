@@ -7,3 +7,5 @@
 3. only push `main.tf` and `.terraform.lock.hcl`.
 4. After everything done make pull request to merge your changes.
 5. if you like this repository please give me `star`.
+
+![](https://estruyf-github.azurewebsites.net/api/VisitorHit?user=venkateshpensalwar&repo=Terraform-IAAC&countColor=%237B1E7)
