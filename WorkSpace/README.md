@@ -15,6 +15,15 @@ Subcommands:
     select    Select a workspace
     show      Show the name of the current workspace
 ```
+for this practical you need two environment 
+1. Development
+2. Production
+
+```CMD
+ terraform workspace new 'workspace name'
+```
+
+
 
 In your IAAC code you can pass workspace keyword so it will take variable values according to workspace.
 Example:
